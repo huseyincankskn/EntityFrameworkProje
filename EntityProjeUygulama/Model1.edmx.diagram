@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59d69945b09246b38b23e756beea1e5f" Name="Diagram1">
+        <EntityTypeShape EntityType="DbEntitiyÜrünModel.Tbl_Kategori" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEntitiyÜrünModel.Tbl_Musteri" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEntitiyÜrünModel.Tbl_Satis" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbEntitiyÜrünModel.Tbl_ürün" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DbEntitiyÜrünModel.FK_Tbl_ürün_Tbl_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="DbEntitiyÜrünModel.FK_Tbl_Satis_Tbl_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="DbEntitiyÜrünModel.FK_Tbl_Satis_Tbl_ürün" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbEntitiyÜrünModel.Tbl_Admin" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
